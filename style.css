@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-size: 100px;
+    background-color: coral;
+    color: red;
+}
+
+li {
+    font-size: 35px;
+}
+
+a {
+    font-size: 35px;
+    color: yellow;
+    background-color: rgb(255, 142, 29);
+}
+
+p {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 142, 29);
+}
