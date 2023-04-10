@@ -1,6 +1,8 @@
-body {
+html, body {
+    height: 100%;
+    box-sizing: border-box;
     background-color: aquamarine;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
 }
 
 h1 {
@@ -9,18 +11,46 @@ h1 {
     color: red;
 }
 
-li {
+p {
     font-size: 35px;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255, 142, 29);
 }
 
-a {
+.allpages {
+    background-color: #ff8e1d;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 300px;
+    display: flex;
+    border: 5px solid #000000
+}
+
+.sushi,
+.pesto,
+.friedrice {
+    width: 60px;
+    height: 60px;
+    border: 5px solid #f7ff07;
+    background: aquamarine;
+    font-size: 30px;
+    flex: 1;
+    margin: 5px;
+    color: yellow
+}
+
+.list {
     font-size: 35px;
     color: yellow;
     background-color: rgb(255, 142, 29);
+    flex: 1;
 }
 
-p {
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 142, 29);
+.sushi {
+    align-self: flex-start;
+}
+
+.friedrice {
+    align-self: flex-end;
 }
